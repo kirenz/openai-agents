@@ -1,4 +1,7 @@
 from openai import OpenAI  # Importiert den offiziellen OpenAI-Python-Client
+from dotenv import load_dotenv  # Importiert die Funktion zum Laden von Umgebungsvariablen aus einer .env-Datei
+
+load_dotenv()  # Lädt die Umgebungsvariablen aus der .env-Datei
 
 # Erstellt einen Client, der automatisch API-Key und Einstellungen aus der Umgebung liest
 client = OpenAI()
