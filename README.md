@@ -11,13 +11,13 @@ OpenAI Developer Account erstellen
 Projekt initialisieren
 
 ```
-uv init openai-agent --python 3.12
+uv init openai-agents --python 3.12
 ```
 
 In das Projektverzeichnis wechseln und benötigte Pakete installieren
 
 ```
-cd openai-agent
+cd openai-agents
 ```
 
 ```
